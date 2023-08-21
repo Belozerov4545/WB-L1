@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pagination">
+      <h3>Один клик по кнопке - сортировка по возрастанию, два клика - сортировка по убыванию</h3>
+        <button id="sort_by_name">Сортировка по имени</button>
+        <button id="sort_by_last_name">Сортировка по фамилии</button>
+        <button id="sort_by_tel">Сортировка по телефону</button>
+        <button id="sort_by_address">Сортировка по адресу</button>
+        <button id="sort_by_city">Сортировка по городу</button>
+        <div class="tableList" id="listingTable"></div>
+        <div class="pagination-block">
+          <span class="pageButton outline-none" id="button_prev">Предыдущая</span>
+          <span id="page_number" class="outline-none"></span>
+          <span class="pageButton outline-none" id="button_next">Следующая</span>
+        </div>
+      </div>
+    <script src="./index.js"></script>
+</body>
+</html>
